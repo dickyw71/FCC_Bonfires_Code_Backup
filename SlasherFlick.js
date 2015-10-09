@@ -1,6 +1,6 @@
 function slasher(arr, howMany) {
   // it doesn't always pay to be first
-  myArr = arr.slice(howMany);
+  var myArr = arr.slice(howMany);
   return myArr;
 }
 
