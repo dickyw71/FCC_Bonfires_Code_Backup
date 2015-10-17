@@ -1,0 +1,26 @@
+JavaScript used so far on Bonfires
+
+- Arithmetic operators
+- Comparison operators
+- Global String Object
+- Arguments object
+- Boolean Objects
+
+- Array.reverse()
+- Array.join()
+- Array.push()
+- Array.slice()
+- Array.splice()
+- Array.indexOf()
+- Array.filter()
+- Array.sort()
+
+- String.split()
+- String.replace()
+- String.toLowerCase()
+- String.split()
+- String.length
+- String.charAt()
+- String.substr()
+- String global object
+- String.slice()
