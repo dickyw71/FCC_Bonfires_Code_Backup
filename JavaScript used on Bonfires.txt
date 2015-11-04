@@ -14,6 +14,7 @@ JavaScript used so far on Bonfires
 - Array.indexOf()
 - Array.filter()
 - Array.sort()
+- Array.reduce()
 
 - String.split()
 - String.replace()
@@ -24,3 +25,6 @@ JavaScript used so far on Bonfires
 - String.substr()
 - String global object
 - String.slice()
+
+- Math.min()
+- Math.max()
