@@ -1,0 +1,28 @@
+function rot13(str) { // LBH QVQ VG!
+  
+  var plainAZ = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var rot13NM = "NOPQRSTUVWXYZABCDEFGHIJKLM";
+  var plainAlphaArr = plainAZ.split("");
+  var rot13AlphaArr = rot13NM.split("");
+  var strArr = str.split("");
+ 
+  
+  // for each alpha character in strArr
+  for(var i=0;i<strArr.length;i++){
+    
+    var charIndex = rot13AlphaArr.indexOf(strArr[i]);
+    if (charIndex !== -1) {
+      // swap character for rot13 counterpart
+      strArr[i] = plainAlphaArr[charIndex];
+    }
+    
+  }
+  
+  str = strArr.join("");
+ 
+  
+  return str;
+}
+
+// Change the inputs below to test
+rot13("SERR PBQR PNZC");
